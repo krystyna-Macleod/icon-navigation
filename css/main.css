@@ -16,3 +16,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.masthead {
+  background-color: #423ca3;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  background-color: #15114c;
+  color: #fff;
+}
+
+li:hover {
+  background-color: #fff;
+  color: #15114c;
+}
+
+nav li a {
+  text-decoration: none;
+}
