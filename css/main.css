@@ -17,6 +17,10 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+}
+
 .masthead {
   background-color: #423ca3;
 }
@@ -36,13 +40,33 @@ h1 {
 li {
   background-color: #15114c;
   color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-li:hover {
+a {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+a:hover {
   background-color: #fff;
   color: #15114c;
 }
 
-nav li a {
-  text-decoration: none;
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    text-align: center;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
 }
